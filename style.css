@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(167, 120, 255);
+    background:rgb(31, 31, 48) 
+}
+
+body{
+    margin: auto;
+}
+
+header h1 {
+    position: fixed;    
+    background: #513263;
+    color: #ddd;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    
+}
+
+div.container{
+    padding: 10px;
+    width: 95%;
+    max-width: 1982px;
+    min-width: 480px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    padding-top: 100px
+}
+
+form div.getContains{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent
+}
+
+div.getContains label{
+    align-self: flex-start;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+div.getContains input{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+    font-size: 18px;
+}   
+
+div.getContains textarea{
+    height: 200px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    color: #ddd;
+
+}
+div.getContains #button{
+    background:rgb(167, 120, 255);
+    font-weight: bold;
+    border: 1px solid transparent;
+    font-size: 2em;
+    color: white; 
+}
+
+#employeeList {
+    margin-top:50px;
+    min-height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;   
+    text-align: center;
+    align-items: center;
+}
+
+#employeeList td{
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: #aaa;
+    padding-left: 20px;
+    
+}
+
+#employeeList td:nth-child(1){
+    padding-right:10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(167, 120, 255);
+}
+
+#employeeList td:nth-child(4){
+    font: italic 20px Impact;
+    
+}
+
+#employeeList a{
+    cursor: pointer;
+}
