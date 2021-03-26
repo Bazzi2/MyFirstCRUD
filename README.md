@@ -25,3 +25,9 @@ Is a simple CRUD, whit basics fundaments!!🤓
 - And so sharing inspiration and being inspired by each other. 💙
 
 
+## Tecnologies
+
+- HTML;
+- CSS
+- JS
+
