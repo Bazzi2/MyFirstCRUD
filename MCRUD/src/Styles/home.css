@@ -1,0 +1,24 @@
+body {
+  margin: auto; 
+}
+
+main {
+  display: grid;
+  grid-template-areas: "nav section section section";
+  gap: 10px;
+  text-align: center;
+}
+
+nav {
+  grid-area: nav;
+  border: 1px solid;
+  margin-left: 0px
+  
+}
+
+section {
+  grid-area: section;
+  border: 1px solid;
+  margin-right: 10px;
+
+}
